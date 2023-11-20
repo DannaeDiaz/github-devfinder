@@ -1,5 +1,5 @@
 import './App.css';
-import { Fragment, useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import { SearchBar } from './components/searchBar/SearchBar';
 import { Box } from '@mui/material';
 
