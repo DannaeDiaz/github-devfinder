@@ -1,0 +1,30 @@
+@import '../../styles/partials/variables.module.scss';
+
+input.searchField {
+  all: revert;
+  width: 100%;
+  padding: 0.7rem;
+  border: 2px solid $primary-blue;
+
+  &:focus {
+    border: $focused-border;
+  }
+}
+
+.searchForm {
+  width: 50%;
+  height: 48px;
+}
+
+.searchIconWrapper {
+  background-color: $primary-blue;
+  border-color: $primary-blue;
+  display: flex;
+  width: 3.5rem;
+  align-items: center;
+  justify-content: center;
+  &:hover {
+    cursor: pointer;
+    background-color: $primary-hover-blue-2;
+  }
+}

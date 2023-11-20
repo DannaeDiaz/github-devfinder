@@ -1,0 +1,52 @@
+// Background white - bg
+$background-white: #ffffff;
+// rgb(255,255,255)
+
+// Background blue - bg focus
+$background-focus-blue: #f9fbff;
+// rgb(249,251,255)
+
+// Accent blue - expressive com, notify, hovers, etc
+$accent-blue: #ecf1fd;
+// rgb(236,241,253)
+
+// Secondary blue - Initials in avatars
+$secondary-blue: #7f9cec;
+// rgb(127,156,236)
+
+// Primary blue - btns
+$primary-blue: #2a5bdf;
+// rgb(42,91,223)
+
+// Primary hover blue 1 - btns
+$primary-hover-blue-1: #c0d1ff;
+// rgb(192,209,255)
+
+// Primary hover blue 2 - btns
+$primary-hover-blue-2: #2046ad;
+// rgb(32,70,173)
+
+// Primary pressed blue - btns
+$primary-pressed-blue: #152e73;
+// rgb(21,46,115)
+
+// Focused input
+$focused-border: #b770fe;
+
+// Disabled elements
+$disabled-gray-1: #ececed;
+$disabled-gray-2: #b5b5b6;
+
+// Neutral gray
+$neutral-gray: #d8d8d9;
+
+// Paragraph Placeholder - sub header and disabled text
+$paragraph-placeholder: #979899;
+
+// Paragraph Baseline - text
+$paragraph-baseline: #474748;
+
+// Subtle transition
+$subtle-transition-timing: ease-in-out;
+$subtle-transition-duration: 100ms;
+$subtle-transition: var(--subtle-transition-duration) var(--subtle-transition-timing);
