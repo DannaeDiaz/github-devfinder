@@ -21,12 +21,13 @@ function App() {
       try {
         if (searchValue !== '') {
           const { data } = await axios.get(
-            `https://api.github.com/users/${searchValue}`,
-            {
-              headers: {
-                Authorization: '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',
-              },
-            },
+            `https://api.github.com/users/${searchValue}`
+            // In case we exceed requests, we can use this authorization token
+            // ,{
+            //   headers: {
+            //     Authorization: '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',
+            //   },
+            // },
           );
           const userData: GithubUser = await data;
           // Destructuring the properties of the fetched user
