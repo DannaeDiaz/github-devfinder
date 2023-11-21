@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/github-devfinder/static/css/main.491d655a.css",
+    "main.js": "/github-devfinder/static/js/main.5f645226.js",
+    "static/js/787.4463d131.chunk.js": "/github-devfinder/static/js/787.4463d131.chunk.js",
+    "static/media/default.png": "/github-devfinder/static/media/default.b5b2fcbf6692136b6bc2.png",
+    "static/media/404.svg": "/github-devfinder/static/media/404.5bfbc7aaf15476432936749661ac546e.svg",
+    "index.html": "/github-devfinder/index.html",
+    "main.491d655a.css.map": "/github-devfinder/static/css/main.491d655a.css.map",
+    "main.5f645226.js.map": "/github-devfinder/static/js/main.5f645226.js.map",
+    "787.4463d131.chunk.js.map": "/github-devfinder/static/js/787.4463d131.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.491d655a.css",
+    "static/js/main.5f645226.js"
+  ]
+}
