@@ -1,0 +1,9 @@
+.App {
+  text-align: center;
+  width: 40vw;
+  height: 50vh;
+  background-color: #111d30;
+  display: grid;
+  grid-template-rows: 1fr 1fr 4fr;
+  row-gap: 1rem;
+}

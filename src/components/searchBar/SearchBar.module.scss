@@ -1,0 +1,9 @@
+@import '../../styles/partials/variables.module.scss';
+
+.searchForm {
+  > .searchField {
+    background-color: $secondary-background-blue;
+    border: none;
+    padding: 1rem 1.5rem 1rem 0.5rem;
+  }
+}
